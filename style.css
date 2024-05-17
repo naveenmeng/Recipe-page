@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color:hsl(30, 10%, 34%) ;
+}
+body{
+    background-color: papayawhip;
+    display: flex;
+    justify-content: center;
+    /* position: relative; */
+}
+
+ul{
+    list-style-type: none;
+}
+.ul li::before{
+    content: "•";
+    color: hsl(332, 51%, 32%) ;
+    margin-right: 12px;
+}
+
+.container{
+    padding: 40px;
+    background-color: white;
+    width: 50vw;
+    margin-bottom: 120px;
+    margin-top: 120px;
+    border-radius: 10px;
+    /* position: absolute;
+    left: 23%;
+    right: 20%;
+    margin-top: 10vh;
+    margin-bottom: 300px; */
+}
+
+img{
+    width: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.heading1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.preparation{
+    background-color:  hsl(330, 100%, 98%);
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.preparation .ul{
+    padding: 1px;
+    margin-left: 15px;
+}
+
+
+.ingri{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.ingri .ul{
+    margin-left: 15px;
+}
+.inst{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.inst .ul1{
+    margin-left: 22px;
+}
+ol li::marker{
+    color: hsl(14, 45%, 36%);
+}
+
+
+.nutri{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.nutri p{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.nutri .flex{
+    display: flex;
+    justify-content: space-between;
+}
+.p{
+    width: 200px;
+}
+
+
+.font1{
+    color: hsl(14, 45%, 36%);
+}
+.font2{
+    color: hsl(332, 51%, 32%) ;
+}
+.font3{
+    color: hsl(30, 10%, 34%);
+}
+.font4{
+    color: hsl(24, 5%, 18%);
+}
+li{
+    padding: 7px;
+}
+tr{
+    padding: 20px;
+}
+.u{
+    font-weight: bolder;
+}
+
+table{
+    width: 100%;
+    object-fit: contain;
+}
+.td{
+    width: 300px;
+    height: 30px;
+    padding-top: 10px;
+    padding-bottom:10px ;
+    padding-left: 30px;
+    justify-content:center ;
+    align-items: center;
+}
+
+
+@media only screen and (max-width: 425px){
+    *{
+        line-height: 1.5;
+    }
+    .container2{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .container{
+        width: 100vw;
+        margin: 0px;
+        padding: 0px;
+    }
+    img{
+        border-radius: 0%;
+        width: 100%;
+        object-fit: contain;
+    }
+    h1{
+        font-size: 35px;
+    }
+    p{
+        font-size: 19px;
+        line-height: 1.5;
+        color: hsl(30, 10%, 34%);
+    }
+    .preparation ul li{
+        color:hsl(30, 10%, 34%) ;
+    }
+    .ul ul{
+        margin-left: 10px;
+    }
+}
